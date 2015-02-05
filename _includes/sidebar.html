@@ -27,9 +27,8 @@
       {% endfor %}
     </ul>
 
-    <ul class="sidebar-nav sidebar-bottom">
-      <li><a href="{{ site.baseurl }}/atom.xml">RSS feed</a></li>
-      <li>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</li>
-    </ul>
+    <div class="sidebar-bottom">
+      {% include feed.html %}
+    </div>
   </div>
 </div>
