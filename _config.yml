@@ -10,3 +10,6 @@ highlighter: pygments
 permalink:   pretty
 
 paginate:    5
+
+# Octopress settings
+post_ext: md
