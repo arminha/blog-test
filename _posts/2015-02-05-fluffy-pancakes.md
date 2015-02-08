@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Fluffy pancakes
+date: 2015-02-05T20:28:10+01:00
 ---
 
 We made some *very fluffy* pancakes for breakfast last weekend :)
