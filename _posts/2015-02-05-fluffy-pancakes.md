@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fluffy pancakes
+title: Fluffy Pancakes
 date: 2015-02-05T20:28:10+01:00
 ---
 
