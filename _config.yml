@@ -1,6 +1,6 @@
 # Site settings
 title: Test Blog
-description: A blog about tasty food, technology and other stuff.
+description: On tasty food, technology and other stuff.
 baseurl: "/blog-test"
 url: "https://arminha.github.io"
 
