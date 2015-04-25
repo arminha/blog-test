@@ -199,6 +199,16 @@ a.sidebar-nav-item:focus {
 
 /* Base16 (http://chriskempson.github.io/base16/#default) */
 
+/* Another Red */
+.theme-base-07 .sidebar,
+.theme-base-07 .footer {
+  background-color: #e84141;
+}
+.theme-base-07 .content a,
+.theme-base-07 .related-posts li a:hover {
+  color: #e84141;
+}
+
 /* Red */
 .theme-base-08 .sidebar,
 .theme-base-08 .footer {
