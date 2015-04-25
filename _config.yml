@@ -1,7 +1,7 @@
 # Site settings
 title: Test Blog
 description: On tasty food, technology and other stuff.
-baseurl: "/blog-test"
+baseurl: "/spaghetticode"
 url: "https://arminha.github.io"
 
 # Build settings
