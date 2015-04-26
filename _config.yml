@@ -11,5 +11,12 @@ permalink:   pretty
 
 paginate:    5
 
+# compress HTML settings
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  ignore:
+    envs: [local]
+
 # Octopress settings
 post_ext: md
