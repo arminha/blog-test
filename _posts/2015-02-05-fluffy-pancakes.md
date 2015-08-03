@@ -12,13 +12,13 @@ We made some *very fluffy* pancakes for breakfast last weekend :)
 
 ### Ingredients
 
-* 3/4 cup milk
 * 1 cup all-purpose flour
 * 2 tablespoons white sugar
 * 1 teaspoon baking powder
 * 1/2 teaspoon salt
-* 1 egg
 * 2 tablespoons butter, melted
+* 3/4 cup milk
+* 1 egg
 
 ### Directions
 
