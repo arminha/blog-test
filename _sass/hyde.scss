@@ -43,7 +43,7 @@ html {
 
 .sidebar, .footer {
   text-align: center;
-  padding: 2rem 1rem;
+  padding: 0.5rem 0.0rem;
   color: rgba(255,255,255,.5);
   background-color: #202020;
 }
@@ -53,8 +53,17 @@ html {
     top: 0;
     left: 0;
     bottom: 0;
+    padding: 2rem 1rem;
     width: 18rem;
     text-align: left;
+  }
+}
+.sidebar ul, .footer ul {
+  margin-bottom: 0;
+}
+@media (min-width: 48rem) {
+  .sidebar ul, .footer ul {
+    margin-bottom: 1rem;
   }
 }
 
@@ -138,8 +147,8 @@ a.sidebar-nav-item:focus {
  */
 
 .content {
-  padding-top:    4rem;
-  padding-bottom: 4rem;
+  padding-top:    2rem;
+  padding-bottom: 3rem;
 }
 
 @media (min-width: 48rem) {
