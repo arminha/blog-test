@@ -18,5 +18,8 @@ compress_html:
   ignore:
     envs: [local]
 
+sass:
+  style: compressed
+
 # Octopress settings
 post_ext: md
