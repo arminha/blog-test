@@ -6,7 +6,7 @@ date: 2015-02-05T20:28:10+01:00
 
 We made some *very fluffy* pancakes for breakfast last weekend :)
 
-[![A plate with pancakes]({{ site.baseurl }}/assets/images/Pancake.jpg){: .center-image }]({{ site.baseurl }}/assets/images/fullsize/Pancake.jpg)
+[![A plate with pancakes]({{ site.baseurl }}/images/Pancake.jpg){: .center-image }]({{ site.baseurl }}/images/fullsize/Pancake.jpg)
 
 ## The recipe
 
