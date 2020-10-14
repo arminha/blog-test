@@ -1,11 +1,14 @@
----
-layout: post
-title: Sealing Off Holes in the Great Firewall
-date: 2015-04-03T17:45:41+02:00
----
++++
+title = "Sealing Off Holes in the Great Firewall"
+date = 2015-04-03T17:45:41+02:00
+
+[taxonomies]
+categories = ["technology"]
++++
 
 Two weeks ago there was a [hacker attack](http://sinosphere.blogs.nytimes.com/2015/03/20/hackers-attack-greatfire-org-a-workaround-for-websites-censored-in-china/) on [GreatFire.org](https://en.greatfire.org/). A website which monitors content blocked by the Great Firewall and offers tools to subvert it.
 
+<!-- more -->
 A week later we heard about a [large scale DDoS attack on GitHub](https://github.com/blog/1981-large-scale-ddos-attack-on-github-com). GitHub said:
 
 >Based on reports we've received, we believe the intent of this attack is to convince us to remove a specific class of content.

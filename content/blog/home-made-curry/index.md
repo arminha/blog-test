@@ -1,10 +1,20 @@
----
-layout: post
-title: Home made curry
-date: 2015-08-03T21:26:57+02:00
----
++++
+title = "Home made curry"
+date = 2015-08-03T21:26:57+02:00
+draft = true
 
-[![Curry boiling and on the plate]({{ site.baseurl }}/images/curry.jpg){: .center-image }]({{ site.baseurl }}/images/fullsize/curry.jpg)
+[taxonomies]
+categories = ["recipes"]
++++
+
+My home made curry recipe.
+
+<!-- more -->
+<div class="center-image">
+
+[![Curry boiling and on the plate](curry.jpg)](curry_fullsize.jpg)
+
+</div>
 
 ### Ingredients
 

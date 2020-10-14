@@ -1,9 +1,15 @@
----
-layout: post
-title: Bread
-date: 2020-05-01T09:54:00+02:00
----
++++
+title = "Bread"
+date = 2020-05-01T09:54:00+02:00
+draft = true
 
+[taxonomies]
+categories = ["recipes"]
++++
+
+Recipe for a tasty bread with a crunchy crust.
+
+<!-- more -->
 ### Ingredients
 
 For 650g of bread.

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>
+      {%- block title %}
+      {%- if page.title -%}
+        {{ page.title }} &middot; {{ config.title }}
+      {%- else -%}
+        {{ config.title }}
+      {%- endif -%}
+      {% endblock -%}
+    </title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="{{ get_url(path="style.css") | safe }}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT%20Sans%3A400%2C400italic%2C700%7CAbril%20Fatface">
+
+    <!-- Icons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="{{ get_url(path="assets/apple-touch-icon-57x57.png") | safe }}">
+    <link rel="apple-touch-icon" sizes="60x60" href="{{ get_url(path="assets/apple-touch-icon-60x60.png") | safe }}">
+    <link rel="apple-touch-icon" sizes="72x72" href="{{ get_url(path="assets/apple-touch-icon-72x72.png") | safe }}">
+    <link rel="apple-touch-icon" sizes="76x76" href="{{ get_url(path="assets/apple-touch-icon-76x76.png") | safe }}">
+    <link rel="apple-touch-icon" sizes="114x114" href="{{ get_url(path="assets/apple-touch-icon-114x114.png") | safe }}">
+    <link rel="apple-touch-icon" sizes="120x120" href="{{ get_url(path="assets/apple-touch-icon-120x120.png") | safe }}">
+    <link rel="apple-touch-icon" sizes="144x144" href="{{ get_url(path="assets/apple-touch-icon-144x144.png") | safe }}">
+    <link rel="apple-touch-icon" sizes="152x152" href="{{ get_url(path="assets/apple-touch-icon-152x152.png") | safe }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ get_url(path="assets/apple-touch-icon-180x180.png") | safe }}">
+    <link rel="icon" type="image/png" href="{{ get_url(path="assets/favicon-32x32.png") | safe }}" sizes="32x32">
+    <link rel="icon" type="image/png" href="{{ get_url(path="assets/android-chrome-192x192.png") | safe }}" sizes="192x192">
+    <link rel="icon" type="image/png" href="{{ get_url(path="assets/favicon-96x96.png") | safe }}" sizes="96x96">
+    <link rel="icon" type="image/png" href="{{ get_url(path="assets/favicon-16x16.png") | safe }}" sizes="16x16">
+    <link rel="manifest" href="{{ get_url(path="assets/manifest.json") | safe }}">
+    <link rel="shortcut icon" href="{{ get_url(path="assets/favicon.ico") | safe }}">
+
+    <link rel="alternate" type="application/atom+xml" title="ATOM Feed" href="{{ get_url(path="atom.xml", trailing_slash=false) | safe }}">
+  </head>
+  <body class="theme-base-07">
+    <div class="sidebar">
+      <div class="container sidebar-sticky">
+        <div class="sidebar-about">
+          <h1>{{ config.title }}</h1>
+          <p class="lead">On tasty food, technology and other stuff.</p>
+        </div>
+
+        <ul class="sidebar-nav">
+          {%- set link = get_section(path="_index.md", metadata_only=true) %}
+          <li class="sidebar-nav-item{% if current_url and current_url == link.permalink %} active{% endif %}">
+            <a href="{{ link.permalink | safe }}">Home</a>
+          </li>
+          {%- set link = get_page(path="about.md") %}
+          <li class="sidebar-nav-item{% if current_url and current_url == link.permalink %} active{% endif %}">
+            <a href="{{ link.permalink | safe }}">{{ link.title }}</a>
+          </li>
+        </ul>
+
+        <div class="sidebar-bottom">
+          <ul class="sidebar-nav">
+            <li><a href="{{ get_url(path="atom.xml", trailing_slash=false) | safe }}">RSS feed</a></li>
+            <li>&copy; {{ config.extra.copyright_year }}. All rights reserved.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="content container">
+      {%- block content -%} {%- endblock %}
+    </div>
+    <div class="footer container">
+      <ul class="sidebar-nav">
+        <li><a href="{{ get_url(path="atom.xml", trailing_slash=false) | safe }}">RSS feed</a></li>
+        <li>&copy; {{ config.extra.copyright_year }}. All rights reserved.</li>
+      </ul>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+# Basics
+title = "A Bowl of Spaghetti Code"
+base_url = "https://arminha.github.io/spaghetticode/"
+compile_sass = true
+highlight_code = false
+build_search_index = false
+
+# Feed
+generate_feed = true
+feed_filename = "atom.xml"
+
+taxonomies = [ { name = "categories" } ]
+
+[extra]
+copyright_year = 2020

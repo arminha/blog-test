@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block content %}
+      <div class="page">
+        <h1 class="page-title">{{ page.title }}</h1>
+        <span class="post-date">{{ page.date | date(format="%-d %b %Y") -}}
+          {%- if page.taxonomies.categories and page.taxonomies.categories[0] -%}
+          <span> in {% set selected_categories = page.taxonomies.categories %}
+          {%- set categories = get_taxonomy(kind="categories") %}
+          {%- for selected in selected_categories %}
+          {%- set category = categories.items | filter(attribute="name", value=selected) | first -%}
+          <a href="{{ category.permalink | safe }}">{{ category.name }}</a>{% if not loop.last %}, {% endif %}
+          {%- endfor -%}
+          </span>
+          {%- endif -%}
+        </span>
+        {{ page.content | safe }}
+      </div>
+{%- endblock content %}

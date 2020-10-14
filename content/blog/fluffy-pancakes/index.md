@@ -1,12 +1,19 @@
----
-layout: post
-title: Fluffy Pancakes
-date: 2015-02-05T20:28:10+01:00
----
++++
+title = "Fluffy Pancakes"
+date = 2015-02-05T20:28:10+01:00
+
+[taxonomies]
+categories = ["recipes"]
++++
 
 We made some *very fluffy* pancakes for breakfast last weekend :)
 
-[![A plate with pancakes]({{ site.baseurl }}/images/Pancake.jpg){: .center-image }]({{ site.baseurl }}/images/fullsize/Pancake.jpg)
+<!-- more -->
+<div class="center-image">
+
+[![A plate with pancakes](pancake.jpg)](pancake_fullsize.jpg)
+
+</div>
 
 ## The recipe
 

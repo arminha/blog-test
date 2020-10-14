@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+      <span><a href="{{ get_url(path="/categories") | safe }}">{{ taxonomy.name }}</a>/{{ term.name }}</span>
+      <p>
+      <div class="posts">
+        {%- for page in term.pages %}
+        <div class="post">
+          <h1 class="post-title"><a href="{{ page.permalink | safe }}">{{ page.title }}</a></h1>
+          <span class="post-date">{{ page.date | date(format="%-d %b %Y") }}</span>
+          {% if page.summary %}{{ page.summary | safe }}{% else %}{{ page.content | safe }}{% endif %}
+        </div>
+        {%- endfor %}
+      </div>
+{%- endblock content %}
