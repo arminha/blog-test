@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Sealing Off Holes in the Great Firewall &middot; A Bowl of Spaghetti Code</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://arminha.github.io/spaghetticode/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT%20Sans%3A400%2C400italic%2C700%7CAbril%20Fatface">
+
+    <!-- Icons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="https://arminha.github.io/spaghetticode/assets/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="https://arminha.github.io/spaghetticode/assets/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://arminha.github.io/spaghetticode/assets/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://arminha.github.io/spaghetticode/assets/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://arminha.github.io/spaghetticode/assets/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://arminha.github.io/spaghetticode/assets/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://arminha.github.io/spaghetticode/assets/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://arminha.github.io/spaghetticode/assets/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://arminha.github.io/spaghetticode/assets/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="https://arminha.github.io/spaghetticode/assets/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://arminha.github.io/spaghetticode/assets/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="https://arminha.github.io/spaghetticode/assets/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="https://arminha.github.io/spaghetticode/assets/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="https://arminha.github.io/spaghetticode/assets/manifest.json">
+    <link rel="shortcut icon" href="https://arminha.github.io/spaghetticode/assets/favicon.ico">
+
+    <link rel="alternate" type="application/atom+xml" title="ATOM Feed" href="https://arminha.github.io/spaghetticode/atom.xml">
+  </head>
+  <body class="theme-base-07">
+    <div class="sidebar">
+      <div class="container sidebar-sticky">
+        <div class="sidebar-about">
+          <h1>A Bowl of Spaghetti Code</h1>
+          <p class="lead">On tasty food, technology and other stuff.</p>
+        </div>
+
+        <ul class="sidebar-nav">
+          <li class="sidebar-nav-item">
+            <a href="https://arminha.github.io/spaghetticode/">Home</a>
+          </li>
+          <li class="sidebar-nav-item">
+            <a href="https://arminha.github.io/spaghetticode/about/">About</a>
+          </li>
+        </ul>
+
+        <div class="sidebar-bottom">
+          <ul class="sidebar-nav">
+            <li><a href="https://arminha.github.io/spaghetticode/atom.xml">RSS feed</a></li>
+            <li>&copy; 2020. All rights reserved.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="content container">
+      <div class="page">
+        <h1 class="page-title">Sealing Off Holes in the Great Firewall</h1>
+        <span class="post-date">3 Apr 2015<span> in <a href="https://arminha.github.io/spaghetticode/categories/technology/">technology</a></span></span>
+        <p>Two weeks ago there was a <a href="https://sinosphere.blogs.nytimes.com/2015/03/20/hackers-attack-greatfire-org-a-workaround-for-websites-censored-in-china/">hacker attack</a> on <a href="https://en.greatfire.org/">GreatFire.org</a>. A website which monitors content blocked by the Great Firewall and offers tools to subvert it.</p>
+<span id="continue-reading"></span>
+<p>A week later we heard about a <a href="https://github.blog/2015-03-27-large-scale-ddos-attack-on-github-com/">large scale DDoS attack on GitHub</a>. GitHub said:</p>
+<blockquote>
+<p>Based on reports we've received, we believe the intent of this attack is to convince us to remove a specific class of content.</p>
+</blockquote>
+<p>GreatFire.org itself has a GitHub page at <a href="https://github.com/greatfire">github.com/greatfire</a> with the source for their page and proxy servers.
+Apparently the DDoS attack was performed by <a href="https://www.nytimes.com/2015/03/31/technology/china-appears-to-attack-github-by-diverting-web-traffic.html">hijacking web traffic for Baidu ads and redirecting it to GitHub</a>.
+A more technical analysis of the attack can be found <a href="https://web.archive.org/web/20150913193640/http://insight-labs.org/?p=1682">here</a>, <a href="https://www.netresec.com/?page=Blog&amp;month=2015-03&amp;post=China%27s-Man-on-the-Side-Attack-on-GitHub">here</a> and <a href="https://blog.erratasec.com/2015/04/pin-pointing-chinas-attack-against.html">here</a>.</p>
+<p>All together an interesting piece of how China tries to seal off holes in the Great Firewall.</p>
+<p>On a side note: some days ago I found a tool to easily set up your own proxy server. Kind of like a poor man's VPN. It's called <a href="https://github.com/apenwarr/sshuttle">sshuttle</a>. I will test it next time I'm behind the Great Firewall.</p>
+
+      </div>
+    </div>
+    <div class="footer container">
+      <ul class="sidebar-nav">
+        <li><a href="https://arminha.github.io/spaghetticode/atom.xml">RSS feed</a></li>
+        <li>&copy; 2020. All rights reserved.</li>
+      </ul>
+    </div>
+  </body>
+</html>

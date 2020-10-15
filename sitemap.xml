@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://arminha.github.io/spaghetticode/</loc>
+    </url>
+    <url>
+        <loc>https://arminha.github.io/spaghetticode/about/</loc>
+    </url>
+    <url>
+        <loc>https://arminha.github.io/spaghetticode/blog/</loc>
+    </url>
+    <url>
+        <loc>https://arminha.github.io/spaghetticode/blog/chinas-great-cannon/</loc>
+        <lastmod>2015-04-18T12:04:16+02:00</lastmod>
+    </url>
+    <url>
+        <loc>https://arminha.github.io/spaghetticode/blog/fluffy-pancakes/</loc>
+        <lastmod>2015-02-05T20:28:10+01:00</lastmod>
+    </url>
+    <url>
+        <loc>https://arminha.github.io/spaghetticode/blog/sealing-off-holes-in-the-great-firewall/</loc>
+        <lastmod>2015-04-03T17:45:41+02:00</lastmod>
+    </url>
+    <url>
+        <loc>https://arminha.github.io/spaghetticode/blog/shadowsocks/</loc>
+        <lastmod>2015-09-02T22:11:24+02:00</lastmod>
+    </url>
+    <url>
+        <loc>https://arminha.github.io/spaghetticode/categories/</loc>
+    </url>
+    <url>
+        <loc>https://arminha.github.io/spaghetticode/categories/recipes/</loc>
+    </url>
+    <url>
+        <loc>https://arminha.github.io/spaghetticode/categories/technology/</loc>
+    </url>
+</urlset>

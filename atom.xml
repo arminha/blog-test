@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>A Bowl of Spaghetti Code</title>
+	<link href="https://arminha.github.io/spaghetticode/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://arminha.github.io/spaghetticode/"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2015-09-02T22:11:24+02:00</updated>
+	<id>https://arminha.github.io/spaghetticode/atom.xml</id>
+	<entry xml:lang="en">
+		<title>shadowsocks</title>
+		<published>2015-09-02T22:11:24+02:00</published>
+		<updated>2015-09-02T22:11:24+02:00</updated>
+		<link href="https://arminha.github.io/spaghetticode/blog/shadowsocks/" type="text/html"/>
+		<id>https://arminha.github.io/spaghetticode/blog/shadowsocks/</id>
+		<content type="html">&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;shadowsocks&#x2F;shadowsocks-iOS&#x2F;issues&#x2F;124#issuecomment-133630294&quot;&gt;&amp;quot;Two days ago the police came to me and wanted me to stop working on this&amp;quot;&lt;&#x2F;a&gt; - The code of shadowsocks, a secure socks5 proxy, has been removed due to pressure from the Chinese government. The GitHub &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;shadowsocks&#x2F;shadowsocks&quot;&gt;repository&lt;&#x2F;a&gt; is now empty. Good that GitHub still keeps the &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;shadowsocks&#x2F;shadowsocks&#x2F;tree&#x2F;5b450acfaa15cd6c2d3e8ab99f9297542df74025&quot;&gt;history&lt;&#x2F;a&gt; :)&lt;&#x2F;p&gt;
+&lt;p&gt;There&#x27;s also a discussion on &lt;a href=&quot;https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=10101469&quot;&gt;Hacker News&lt;&#x2F;a&gt; and a &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;ShadowsocksBackup&quot;&gt;backup of all repos&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>China&#x27;s Great Cannon</title>
+		<published>2015-04-18T12:04:16+02:00</published>
+		<updated>2015-04-18T12:04:16+02:00</updated>
+		<link href="https://arminha.github.io/spaghetticode/blog/chinas-great-cannon/" type="text/html"/>
+		<id>https://arminha.github.io/spaghetticode/blog/chinas-great-cannon/</id>
+		<content type="html">&lt;p&gt;The Citizen Lab issued a &lt;a href=&quot;https:&#x2F;&#x2F;citizenlab.ca&#x2F;2015&#x2F;04&#x2F;chinas-great-cannon&#x2F;&quot;&gt;detailed report&lt;&#x2F;a&gt; on the recent &lt;a href=&quot;https:&#x2F;&#x2F;arminha.github.io&#x2F;spaghetticode&#x2F;blog&#x2F;sealing-off-holes-in-the-great-firewall&#x2F;&quot;&gt;DDoS attacks on GitHub and GreatFire.org&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
+&lt;p&gt;They identified a new tool, called the &amp;quot;Great Cannon&amp;quot; that is co-located with the Great Firewall.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The Great Cannon is not simply an extension of the Great Firewall, but a distinct attack tool that hijacks traffic to (or presumably from) individual IP addresses, and can arbitrarily replace unencrypted content as a man-in-the-middle.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;EDITED TO ADD (4&#x2F;25): A different &lt;a href=&quot;https:&#x2F;&#x2F;security.googleblog.com&#x2F;2015&#x2F;04&#x2F;a-javascript-based-ddos-attack-as-seen.html&quot;&gt;view of the attack&lt;&#x2F;a&gt; from the Google Online Security Blog.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Sealing Off Holes in the Great Firewall</title>
+		<published>2015-04-03T17:45:41+02:00</published>
+		<updated>2015-04-03T17:45:41+02:00</updated>
+		<link href="https://arminha.github.io/spaghetticode/blog/sealing-off-holes-in-the-great-firewall/" type="text/html"/>
+		<id>https://arminha.github.io/spaghetticode/blog/sealing-off-holes-in-the-great-firewall/</id>
+		<content type="html">&lt;p&gt;Two weeks ago there was a &lt;a href=&quot;https:&#x2F;&#x2F;sinosphere.blogs.nytimes.com&#x2F;2015&#x2F;03&#x2F;20&#x2F;hackers-attack-greatfire-org-a-workaround-for-websites-censored-in-china&#x2F;&quot;&gt;hacker attack&lt;&#x2F;a&gt; on &lt;a href=&quot;https:&#x2F;&#x2F;en.greatfire.org&#x2F;&quot;&gt;GreatFire.org&lt;&#x2F;a&gt;. A website which monitors content blocked by the Great Firewall and offers tools to subvert it.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
+&lt;p&gt;A week later we heard about a &lt;a href=&quot;https:&#x2F;&#x2F;github.blog&#x2F;2015-03-27-large-scale-ddos-attack-on-github-com&#x2F;&quot;&gt;large scale DDoS attack on GitHub&lt;&#x2F;a&gt;. GitHub said:&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Based on reports we&#x27;ve received, we believe the intent of this attack is to convince us to remove a specific class of content.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;GreatFire.org itself has a GitHub page at &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;greatfire&quot;&gt;github.com&#x2F;greatfire&lt;&#x2F;a&gt; with the source for their page and proxy servers.
+Apparently the DDoS attack was performed by &lt;a href=&quot;https:&#x2F;&#x2F;www.nytimes.com&#x2F;2015&#x2F;03&#x2F;31&#x2F;technology&#x2F;china-appears-to-attack-github-by-diverting-web-traffic.html&quot;&gt;hijacking web traffic for Baidu ads and redirecting it to GitHub&lt;&#x2F;a&gt;.
+A more technical analysis of the attack can be found &lt;a href=&quot;https:&#x2F;&#x2F;web.archive.org&#x2F;web&#x2F;20150913193640&#x2F;http:&#x2F;&#x2F;insight-labs.org&#x2F;?p=1682&quot;&gt;here&lt;&#x2F;a&gt;, &lt;a href=&quot;https:&#x2F;&#x2F;www.netresec.com&#x2F;?page=Blog&amp;amp;month=2015-03&amp;amp;post=China%27s-Man-on-the-Side-Attack-on-GitHub&quot;&gt;here&lt;&#x2F;a&gt; and &lt;a href=&quot;https:&#x2F;&#x2F;blog.erratasec.com&#x2F;2015&#x2F;04&#x2F;pin-pointing-chinas-attack-against.html&quot;&gt;here&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;All together an interesting piece of how China tries to seal off holes in the Great Firewall.&lt;&#x2F;p&gt;
+&lt;p&gt;On a side note: some days ago I found a tool to easily set up your own proxy server. Kind of like a poor man&#x27;s VPN. It&#x27;s called &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;apenwarr&#x2F;sshuttle&quot;&gt;sshuttle&lt;&#x2F;a&gt;. I will test it next time I&#x27;m behind the Great Firewall.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Fluffy Pancakes</title>
+		<published>2015-02-05T20:28:10+01:00</published>
+		<updated>2015-02-05T20:28:10+01:00</updated>
+		<link href="https://arminha.github.io/spaghetticode/blog/fluffy-pancakes/" type="text/html"/>
+		<id>https://arminha.github.io/spaghetticode/blog/fluffy-pancakes/</id>
+		<content type="html">&lt;p&gt;We made some &lt;em&gt;very fluffy&lt;&#x2F;em&gt; pancakes for breakfast last weekend :)&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;div class=&quot;center-image&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;arminha.github.io&#x2F;spaghetticode&#x2F;blog&#x2F;fluffy-pancakes&#x2F;pancake_fullsize.jpg&quot;&gt;&lt;img src=&quot;https:&#x2F;&#x2F;arminha.github.io&#x2F;spaghetticode&#x2F;blog&#x2F;fluffy-pancakes&#x2F;pancake.jpg&quot; alt=&quot;A plate with pancakes&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;h2 id=&quot;the-recipe&quot;&gt;The recipe&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;ingredients&quot;&gt;Ingredients&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;1 cup all-purpose flour&lt;&#x2F;li&gt;
+&lt;li&gt;2 tablespoons white sugar&lt;&#x2F;li&gt;
+&lt;li&gt;1 teaspoon baking powder&lt;&#x2F;li&gt;
+&lt;li&gt;1&#x2F;2 teaspoon salt&lt;&#x2F;li&gt;
+&lt;li&gt;2 tablespoons butter, melted&lt;&#x2F;li&gt;
+&lt;li&gt;3&#x2F;4 cup milk&lt;&#x2F;li&gt;
+&lt;li&gt;1 egg&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;directions&quot;&gt;Directions&lt;&#x2F;h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Combine flour, sugar, baking powder and salt in a large mixing bowl. Whisk egg and butter into milk. Pour everything into the flour mixture and whisk until lumps are gone.&lt;&#x2F;li&gt;
+&lt;li&gt;Heat a non-stick frying pan over a medium heat and add a knob of butter. When it&#x27;s melted, add a ladle of batter and cook until bubbles appear on the surface. Flip with a spatula, and cook until browned on the other side.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;Serve with maple syrup. Delicious.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+</feed>
