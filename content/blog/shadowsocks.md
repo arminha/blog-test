@@ -2,6 +2,8 @@
 title = "shadowsocks"
 date = 2015-09-02T22:11:24+02:00
 
+aliases = ["/2015/09/02/shadowsocks/"]
+
 [taxonomies]
 categories = ["technology"]
 +++

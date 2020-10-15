@@ -2,6 +2,8 @@
 title = "China's Great Cannon"
 date = 2015-04-18T12:04:16+02:00
 
+aliases = ["/2015/04/18/chinas-great-cannon/"]
+
 [taxonomies]
 categories = ["technology"]
 +++

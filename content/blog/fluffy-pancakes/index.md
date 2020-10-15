@@ -2,6 +2,8 @@
 title = "Fluffy Pancakes"
 date = 2015-02-05T20:28:10+01:00
 
+aliases = ["/2015/02/05/fluffy-pancakes/"]
+
 [taxonomies]
 categories = ["recipes"]
 +++

@@ -2,6 +2,8 @@
 title = "Sealing Off Holes in the Great Firewall"
 date = 2015-04-03T17:45:41+02:00
 
+aliases = ["/2015/04/03/sealing-off-holes-in-the-great-firewall/"]
+
 [taxonomies]
 categories = ["technology"]
 +++
