@@ -1,5 +1,7 @@
 # spaghetticode
 
+[![Deploy Badge](https://github.com/arminha/spaghetticode/workflows/Deploy/badge.svg)](https://github.com/arminha/spaghetticode/actions)
+
 ## Build
 
 Install zola with cargo
