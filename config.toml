@@ -11,5 +11,10 @@ feed_filename = "atom.xml"
 
 taxonomies = [ { name = "categories" } ]
 
+[link_checker]
+skip_anchor_prefixes = [
+  "https://github.com/shadowsocks/",
+]
+
 [extra]
 copyright_year = 2020
