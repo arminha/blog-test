@@ -1,4 +1,5 @@
 on: push
+name: 'Deploy'
 jobs:
   build:
     runs-on: ubuntu-latest
